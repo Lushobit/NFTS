@@ -1,0 +1,69 @@
+#MainNumbers{
+    margin-bottom: 120px;
+}
+.klk{
+    display: block;
+    font-family: Ambidexter_Regular, cursive;
+    font-size: 28px;
+    line-height: 32px;
+    color: #c8fa00;
+}
+
+.container-number{
+    border-radius: 20px;
+    background-color: #32423a;
+}
+.img-number-l {
+    left: 0;
+    background-position: top left;
+    
+}
+/*
+.container-number::before, .container-number::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+}
+
+.container-number::after{
+    left: 0;
+    width: 63px;
+    background-image: url('https://tf.bda.dev/creakzers/img/section-numbers-image-1.svg') ;
+    background-position: top left;
+}
+.container-number::before {
+    right: 0;
+    width: 34px;
+    background-image: url('https://tf.bda.dev/creakzers/img/section-numbers-image-2.svg');
+    background-position: bottom right;
+}
+*/
+
+
+/*---SCREEN SETTINGS--*/
+@media (max-width: 767px) {
+
+
+}
+@media (min-width: 768px) and (max-width:991px) {
+    .container-number{
+        padding: 30px 80px;
+    }
+
+}
+@media (min-width: 992px) {
+    .container-ul{
+        padding: 30px 80px;
+    }
+    .klk{
+        font-size: 40px;
+    }
+    .div-lu{
+        padding: 10px;
+        margin: 0px 50px;
+    }
+}

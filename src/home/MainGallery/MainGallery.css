@@ -1,0 +1,66 @@
+#MainGallery{
+    margin-bottom: 120px;
+}
+.name-nft{
+    font-size:15px;
+    text-align: start;
+    color: #c8fa00;
+}
+.card-nft{
+    background-color: #32423a!important;
+    border-radius: 20px!important;
+    -webkit-box-shadow: 2px 6px 19px 4px rgba(0,0,0,0.67);
+-moz-box-shadow: 2px 6px 19px 4px rgba(0,0,0,0.67);
+box-shadow: 2px 6px 19px 4px rgba(0,0,0,0.67);
+}
+.img-card{
+    border-radius: 20px!important;
+}
+.id-nft{
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+
+/*---SCREEN SETTINGS--*/
+/*---SCREEN SETTINGS--*/
+@media (min-width:300px) and (max-width: 767px) {
+    .div-logo-f{
+        margin-top: 20px!important;
+    }
+    .c-card {
+        max-width: 100%!important;
+        display: flex!important;
+        flex-wrap: wrap!important;
+    }
+
+    .li-btn{
+        font-size: 22px;
+    }
+
+
+}
+@media (min-width: 768px) and (max-width:991px) {
+    .card-nft{
+        width: 170px!important;
+    }
+    .img-card{
+        width: 100%!important;
+    }
+}
+@media (min-width: 992px) {
+    .div-logo-f{
+        margin-top: 20px!important;
+    }
+    .card-nft{
+        width: 175px!important;
+    }
+    .btn-i{
+        cursor: pointer;
+        margin-right: 10px;
+        margin-top: -20px;
+    }
+    .li-btn{
+        font-size: 22px;
+    }
+}

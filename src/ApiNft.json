@@ -1,0 +1,29 @@
+{
+    "Nft": [
+        {
+            "id": 1,
+            "img": "https://i.ibb.co/L9gNNpS/nft-slider-1.png",
+            "name": "Rare Sad Monkey"
+        },
+        {
+            "id": 2,
+            "img": "https://i.ibb.co/wcxLFTq/nft-slider-2.png",
+            "name": "Monkey Estrabagante LGBTH"
+        },
+        {
+            "id": 3,
+            "img": "https://i.ibb.co/Fnwsxrp/nft-slider-3.png",
+            "name": "Aesthetic Monkey"
+        },
+        {
+            "id": 4,
+            "img": "https://i.ibb.co/rsJvQGb/nft-slider-4.png",
+            "name": "Gold Sailor Monkey"
+        },
+        {
+            "id": 5,
+            "img": "https://i.ibb.co/KVx9kXX/nft-slider-5.png",
+            "name": "Sailor Monkey Emo"
+        }
+    ]
+}

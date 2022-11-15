@@ -1,0 +1,120 @@
+.nav-item{
+    color: black!important;
+    margin-left: 20px;
+}
+.nav-item >.active{
+    color: black!important;
+    background-color: #c8fa00!important;
+    border-radius: 10px;
+}
+.nav-item >.active:hover{
+    color: black!important;
+    background-color: #c8fa00!important;
+    border-radius: 10px;
+}
+.nav-item > .klk-n{
+    color: white;
+}
+.nav-item > .klk-n:hover{
+    border: none!important;
+    color: white!important;
+}
+
+
+.nav-tabs{
+    border-bottom: none!important;
+}
+
+.c-c-n{
+    background-color: #32423a!important;
+    border-radius: 30px;
+    width: 300px;
+    transition: 1a;
+}
+.c-c-n:hover{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #b2b6a5fa!important;
+    box-shadow: 0 0 30px 0 rgba(222, 254, 95, 0.808);
+    transition: 0.3s;
+}
+.c-c-n:hover .img-cards-n{
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.text-cards-n{
+    color: black;
+    font-size: 15px;
+}
+.img-cards-n{
+    width: 150px;
+    border-radius: 20px;
+}
+/*---SCREEN SETTINGS--*/
+@media (max-width: 767px) {
+
+    .img-cards-n{
+        margin-top: 20px;
+        width: 220px!important;
+    }
+    .c-c-n{
+        margin: 20px ;
+        border-radius: 30px;
+        width: 200px!important;
+    }
+    .text-cards-n{
+        font-size: 15px;
+    }
+    .img-cards-n{
+        width: 90px!important;
+    }
+    .img-cards-n{
+        width: 90px!important;
+    }
+
+
+}
+@media (min-width: 768px) and (max-width:991px) {
+
+        .img-cards-n{
+        margin-top: 20px;
+        width: 220px!important;
+    }
+    .c-c-n{
+        margin: 20px ;
+        border-radius: 30px;
+        width: 200px!important;
+    }
+    .text-cards-n{
+        font-size: 15px;
+    }
+    .img-cards-n{
+        width: 90px!important;
+    }
+    .img-cards-n{
+        width: 90px!important;
+    }
+    .c-c-n:hover .img-cards-n{
+        width: 100px!important;
+    }
+}
+@media (min-width: 992px) {
+    .img-cards-n{
+        margin-top: 20px;
+        width: 120px!important;
+    }
+    .c-c-n{
+        margin: 20px ;
+        border-radius: 30px;
+        width: 200px!important;
+    }
+    .text-cards-n{
+        font-size: 15px;
+    }
+    .img-cards-n{
+        width: 90px!important;
+    }
+    .c-c-n:hover .img-cards-n{
+        width: 100px!important;
+    }
+}

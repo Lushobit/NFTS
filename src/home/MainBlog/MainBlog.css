@@ -1,0 +1,52 @@
+#MainBlog{
+    margin-bottom: 120px;
+    
+}
+
+.div-img-nft img{
+    max-width: 100%;
+}
+
+
+.div-img-nft img{
+    border-radius: 20px!important;
+    
+}
+.h2-blog:hover{
+    cursor: pointer;
+    color: #c8fa00!important;
+}
+.a-blog{
+    font-size: 20px;
+
+}
+.a-blog:hover{
+    color: #c8fa00!important;
+    text-decoration: none;
+}
+
+
+
+/*---SCREEN SETTINGS--*/
+@media (max-width: 767px) {
+
+
+}
+@media (min-width: 768px) and (max-width:991px) {
+    .t-blog{
+
+    }
+    .a-blog{
+        margin-right: -240px;
+        margin-top: 0;
+    }
+    .h2-blog{
+        font-size: 20px;
+    }
+    .p-blog{
+
+    }
+}
+@media (min-width: 992px) {
+
+}

@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+
+}
+.font-color{
+  color: #c8fa00;
+}
+
+.App{
+  background-color:#0d1d15;
+
+}
+
+@font-face {
+  font-family: Ambidexter_Regular;
+  font-display: swap;
+  src: url("./assets/font/Ambidexter_Regular.woff2") format("woff2"), url("./assets/font/Ambidexter_Regular.woff2") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

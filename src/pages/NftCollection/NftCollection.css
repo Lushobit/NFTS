@@ -1,0 +1,36 @@
+#NftCollection {
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+
+.div-c {
+    border-radius: 20px;
+}
+
+.klk-i:last-child {
+    color: black;
+    border: none;
+    box-shadow: 0 0 30px 0 rgb(200 250 0 / 60%);
+    transition: 0.3s;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: #c8fa00 !important;
+}
+.klk-i:hover{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #f0f8d0fa!important;
+    box-shadow: 0 0 30px 0 rgba(222, 254, 95, 0.808);
+    transition: 0.3s;
+}
+.c-select > .list-group-item{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #f0f8d0fa!important;
+    transition: 0.3s;
+}
+
+
+.h2-c {
+    color: #c8fa00;
+}
